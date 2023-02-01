@@ -21,9 +21,9 @@ body {
 
 .row {
     display: flex;
-    background-color: whitesmoke;ß
+    background-color: whitesmoke;
     width: 100%;
-    height: calc(100% / 8);    
+    height: calc(100% / 8);
 }
 
 .squares {
