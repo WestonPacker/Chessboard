@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: beige;
     height: 100vh;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .row {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;ß
     width: 100%;
     height: calc(100% / 8);    
 }
@@ -37,5 +37,5 @@ body {
 
 
 .row .squares:nth-child(odd), .row.reverse .squares:nth-child(even) {
-    background-color: beige;
+    background-color: whitesmoke;
 }
