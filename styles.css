@@ -10,23 +10,22 @@ body {
     height: 100vh;
 }
 
-.board {
-    /* background-color: rgb(255, 99, 71); */
+#board {
     display: block;
     border: 10px solid rgb(0, 0, 0);
     width: 75vw;
     height: 75vh;
 }
 
-
 .row {
     display: flex;
-    background-color: whitesmoke;
+    background-color: rgb(118, 116, 116);
     width: 100%;
     height: calc(100% / 8);
 }
 
 .squares {
+    border: 1px solid black;
     width: calc(100% / 8);
     height: 100%; 
 }
